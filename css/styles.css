@@ -8191,15 +8191,15 @@ fieldset:disabled .btn {
   font-weight: bolder !important;
 }
 
-.success {
+div .success {
   font-size: 2rem !important;
 }
 
-.success-msg {
+p .success-msg {
   font-size: 1.4rem !important;
 }
 
-.success-link {
+a .success-link {
   color: #212529 !important;
 }
 
