@@ -237,6 +237,10 @@ a:hover {
   color: #15967d;
 }
 
+.github-link:hover {
+  color: #15967d;
+}
+
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color: inherit;
