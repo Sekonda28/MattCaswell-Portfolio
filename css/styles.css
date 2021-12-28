@@ -234,25 +234,7 @@ a {
 }
 
 a:hover {
-  color: #15967d;
-}
-.github-link{
-  display:flex;
-  align-items: center;
-  justify-content: center
-}
-.github-link:hover {
-  color: #15967d;
-}
-
-.fa-github-square{
-  padding-right: 10px;
-  text-decoration:none
-}
-
-.portfolio-subtitle{
-  text-align: center;
-  padding-top: 10px
+  color: #15967d 
 }
 
 
@@ -8296,9 +8278,7 @@ a .success-link {
 .text-secondary {
   color: #2c3e50 !important;
 }
-.text-secondary:hover{
-  color: #15967d !important
-}
+
 
 .text-success {
   color: #198754 !important;
@@ -12056,4 +12036,29 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.github-link{
+  display:flex;
+  align-items: center;
+  justify-content: center
+}
+.github-link:hover {
+  color: #15967d !important;
+}
+
+.fa-github-square{
+  padding-right: 10px;
+  text-decoration:none
+}
+
+.portfolio-subtitle{
+  text-align: center;
+  padding-top: 10px
+}
+
+.skills{
+  text-align:center;
+  padding-bottom: 20px;
+  justify-content: center
 }
