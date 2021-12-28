@@ -236,10 +236,25 @@ a {
 a:hover {
   color: #15967d;
 }
-
+.github-link{
+  display:flex;
+  align-items: center;
+  justify-content: center
+}
 .github-link:hover {
   color: #15967d;
 }
+
+.fa-github-square{
+  padding-right: 10px;
+  text-decoration:none
+}
+
+.portfolio-subtitle{
+  text-align: center;
+  padding-top: 10px
+}
+
 
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
@@ -8280,6 +8295,9 @@ a .success-link {
 
 .text-secondary {
   color: #2c3e50 !important;
+}
+.text-secondary:hover{
+  color: #15967d !important
 }
 
 .text-success {
