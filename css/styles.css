@@ -234,8 +234,9 @@ a {
 }
 
 a:hover {
-  color: #15967d;
+  color: #15967d 
 }
+
 
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
@@ -8278,6 +8279,7 @@ a .success-link {
   color: #2c3e50 !important;
 }
 
+
 .text-success {
   color: #198754 !important;
 }
@@ -12034,4 +12036,29 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.github-link{
+  display:flex;
+  align-items: center;
+  justify-content: center
+}
+.github-link:hover {
+  color: #15967d !important;
+}
+
+.fa-github-square{
+  padding-right: 10px;
+  text-decoration:none
+}
+
+.portfolio-subtitle{
+  text-align: center;
+  padding-top: 10px
+}
+
+.skills{
+  text-align:center;
+  padding-bottom: 20px;
+  justify-content: center
 }
